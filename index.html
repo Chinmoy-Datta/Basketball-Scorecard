@@ -9,14 +9,33 @@
 </head>
 <body>
     
-    <div class="light">
-         <div class="wire"></div>
-         <div class="bulb">
-            <i class="fas fa-lightbulb"></i>
-         </div>
-        <div class="switch">
-            <i class="fas fa-power-off"></i>
+ <header>
+      <h1>BASKETBALL SCOREBOARD</h1>
+    </header>
+    <div class="container">
+      <div class="home home-bg">
+        <h1>HOME</h1>
+        <div class="home-score">
+          <h2 class="score h-score">0</h2>
         </div>
+        <button class="btn-score h-btn hbtn1">+1</button>
+        <button class="btn-score h-btn hbtn2">+2</button>
+        <button class="btn-score h-btn hbtn3">+3</button>
+      </div>
+      <div class="guest guest-bg">
+        <h1>GUEST</h1>
+        <div class="guest-score">
+          <h2 class="score g-score">0</h2>
+        </div>
+        <button class="btn-score g-btn gbtn1">+1</button>
+        <button class="btn-score g-btn gbtn2">+2</button>
+        <button class="btn-score g-btn gbtn3">+3</button>
+      </div>
+    </div>
+    <p class="mess"></p>
+    <div class="btns-container">
+      <button class="new-btn btn">New Game</button>
+      <button class="end-btn btns">End Game</button>
     </div>
 
     <script src="script.js"></script>
